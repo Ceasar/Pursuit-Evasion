@@ -1,4 +1,4 @@
-Originally just an assignment for my CIS-121 (Data Structures) class to write two AI's that could beat the TA bots, I decided to take it a step further and made my bots as could as I could conceive.
+Originally just an assignment for my CIS-121 (Data Structures) class to write two AI's that could beat the TA bots, I decided to take it a step further and took out Differential Games by Issac Rufus (1965) and proceeded to make some pretty strong bots.
 
 TODO
 -Make it so that when the Ninja hears the Pirate, rather than assigning a new destination immediately, instead find the point where he would be equidistant from all paths worth taking. (Similar idea should be applied to Pirate. Deterministic strategies can't be allowed.)
