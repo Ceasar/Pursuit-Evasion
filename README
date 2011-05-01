@@ -1,3 +1,5 @@
+A simulation on a variant of the Princess and Monster game.
+
 Originally just an assignment for my CIS-121 (Data Structures) class to write two AI's that could beat the TA bots, I decided to take it a step further and took out Differential Games by Issac Rufus (1965) and proceeded to make some pretty strong bots.
 
 TODO
@@ -7,3 +9,4 @@ TODO
 -Redo getMidpoints() to NOT use getDifferences() (it's significantly slower).
 -Optimize code so that caching isn't necessary if possible.
 -Follow up on original blog write-up.
+-Investigate whether or not it's possible for the Pirate to actually catch the Ninja after initial detection. In theory, I would suspect it could be so (or at least different than the current strategy) in that if we consider that the Pirate has reached the target before the Ninja, he ought to be able to circle the goal faster than the Ninja which basically means he ought to be able to move slightly forward. I believe the Pirate already does this to some extent, but I suspect it may be possible to do better by slightly changing the algorithm so that instead of intersecting the Ninja directly, it simply makes sure the intersection node is always visible.
